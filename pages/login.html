@@ -1,0 +1,48 @@
+<head>
+        <style>
+            .form-group{
+                border:2px inset black;
+                width:50%;
+                text-align: center;
+                padding:80px;
+                color:white;
+                border-radius:10%;
+
+            }
+            input:invalid{
+                border:2px solid #ff0261;
+            }
+            form{
+                max-width:850px;
+                margin-left:500px;
+                margin-top:150px;
+            }
+            .btn-primary{
+                width:100%;
+            }
+            body{
+                background-image:url('login.jfif');
+                background-size:cover;
+            }
+        </style>
+</head>
+<div ng-controller="loginController" name="login">
+
+    <form name="userForm" ng-submit="submitForm(userForm.$valid)" novalidate> <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
+    <h2 style="color:white">Login</h2>
+        <!-- EMAIL -->
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" class="form-control" ng-model="email"> <br><br>
+            <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
+
+        <!--PASSWORD-->
+            <label>Password:</label>
+            <input type="password" name="password"class="form-control" ng-model="password"> <br><br>
+
+        <!-- SUBMIT BUTTON -->
+            <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Let me in!</button>
+      </div>
+    </form>
+    </div>
+

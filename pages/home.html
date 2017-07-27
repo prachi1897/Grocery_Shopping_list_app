@@ -1,0 +1,47 @@
+
+<head>
+<style>
+    body{
+        background-image:url('images.jfif');
+        background-size:cover;
+        opacity:1px;
+    }
+
+    a{
+        display:block;
+        text-align:center;
+        padding:20px;
+        color:black;
+        text-decoration:none;
+    }
+    .res1{
+        width:100%;
+    }
+    .btn ,btn-default{
+        margin-top:20px;
+    }
+
+    </style>
+        </head>
+<body>
+  <div class="search-bar">
+  <form>
+  <div class="input-wrapper">
+Search out your query:<br>   <input type="text" class="form-control" placeholder="Search..." ng-model="Search">
+ <button type="submit" class="btn btn-default">Search</button>
+</div>
+</form>
+</div>
+<div ng-controller="homeController">
+    <div class="homepage"></div>
+    <a  ng-repeat="restaurant in restaurants | filter : Search" href="#!/restaurant/{{$index}}">
+   <div class="res1 ">
+   </div>
+    {{restaurant.name}}
+    </div></a>
+</div>
+
+</body>
+
+
+

@@ -1,0 +1,48 @@
+<html>
+<head>
+    <style>
+    body{
+        background-color:cadetblue;
+    }
+           </style>
+</head>
+                       <body>
+<div ng-controller="restaurantController">
+    <!--<div ng-repeat="restaurant in restaurants"></div>-->
+    <h1>Show Restaurant {{restaurantId}} details here</h1>
+
+   <!--<div class="restdetails"></div>-->
+    <!--<h2>{{restaurant.name}}</h2>-->
+    <!--<p>Location:{{restaurant.address}}</p>-->
+    <!--<p>Votes:{{restaurant.votes}}</p>-->
+    <!--<h3>Cuisine:{{restaurant.Cuisine}}</h3>-->
+    <!--<button  ng-click="restaurants.recommendedDish">Check out the favourite dish</button>-->
+                            <!--</div>-->
+<!--</div>-->
+
+<div class="rest-extra">
+    <div class="type">
+        <div>Name:{{restaurant.name}}</div>
+        <div><small>Cuisines:{{restaurant.Cuisine}}</small></div>
+        <div><small>Cost for Two:₹{{restaurant.cost }} </small></div>
+        <div>{{restaurant.image}}</div>
+
+        <div ng-if="restaurants.recommendedDish"><small>Recommended: </small></div>
+    </div>
+        <div class="bestDish" ng-if="restaurant.recommendedDish">
+            <span>{{restaurant.recommendedDish.name}} </span>
+            <button type="button" ng-click=getIngrediants(resturant.recommendedDish.image)>Get Ingredients</button>
+        </div>
+    </div>
+    <div ng-if="ingredients">
+        <ol>
+            <li ng-repeat="ingredient in ingredients">
+                {{ingredient}}
+            </li>
+        </ol>
+    </div>
+</div>
+
+
+                       </body>
+</html>
