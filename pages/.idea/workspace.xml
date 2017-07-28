@@ -4,7 +4,7 @@
     <list default="true" id="9985d4ea-5263-4520-ab87-d7cdabf2f39c" name="Default" comment="" />
     <ignored path="pages.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501234543689" ignored="false" />
+    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501235483727" ignored="false" />
     <file path="/grocery_app1.js" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501234211569" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="restaurant.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="90" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.94585985">
+            <state line="46" column="18" selection-start="1785" selection-end="1785" vertical-scroll-proportion="0.5398089">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,10 @@
         <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1501234410798" expanded="true" signature="2030:2355" placeholder="{&quot;id&quot;: 3...}" />
+                <marker date="1501234410798" expanded="true" signature="2365:2696" placeholder="{&quot;id&quot;: 4...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -287,7 +290,10 @@
     <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="97" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1501234410798" expanded="true" signature="2030:2355" placeholder="{&quot;id&quot;: 3...}" />
+            <marker date="1501234410798" expanded="true" signature="2365:2696" placeholder="{&quot;id&quot;: 4...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -322,13 +328,16 @@
     <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1501234410798" expanded="true" signature="2030:2355" placeholder="{&quot;id&quot;: 3...}" />
+            <marker date="1501234410798" expanded="true" signature="2365:2696" placeholder="{&quot;id&quot;: 4...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="90" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.94585985">
+        <state line="46" column="18" selection-start="1785" selection-end="1785" vertical-scroll-proportion="0.5398089">
           <folding />
         </state>
       </provider>
