@@ -29,11 +29,13 @@
     <div class="restaurant">
         <div class="rest-wrapper">
             <div class="image">
-                <img src="{{restaurant.image}}" height="100" width="100">
+                <img src="{{restaurant.image}}" height="200" width="200">
             </div>
+            <h2>{{restaurant.name}}</h2>
             <p>Cuisines:{{restaurant.Cuisine}}</p>
             <div><small>Cost for Two:₹{{restaurant.cost | number}} </small></div>
             <div><small>Votes:{{restaurant.votes}}</small></div>
+
 
             <!--<div class="rest-name">-->
                     <!--<strong>{{restaurant.name}}</strong>-->
@@ -49,9 +51,19 @@
               </div>
         </div>
 
+
+
+
     <!--<div ng-if="ingredients">-->
-        <!--<ol>-->
-            <!--<li ng-repeat="ingredient in ingredients">-->
+        <!--<ol>-->                                                                                                  <!--<div ng-if="restaurants.recommendedDish"><small>Recommended: </small></div>-->
+<!--</div>-->
+<!--<div class="bestDish" ng-if="restaurant.recommendedDish">-->
+<!--<span>{{restaurant.recommendedDish.name}} </span>-->
+<!--<button type="button" ng-click=getIngrediants(resturant.recommendedDish.image)>Get Ingredients</button>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<li ng-repeat="ingredient in ingredients">-->
                 <!--{{ingredient}}-->
             <!--</li>-->
         <!--</ol>-->

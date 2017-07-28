@@ -47,7 +47,7 @@ grocery_shopping.service('restaurantService',function(){
             votes:'56k',
             Cuisine:'Chinese',
             cost:'800',
-            image:('farzicafe.jfif'),
+            image:('shd.png'),
             recommendedDish:{
                 name: 'Best Dish:italian Pizzachick',
                 image: 'sdh.jfif'
@@ -59,7 +59,8 @@ grocery_shopping.service('restaurantService',function(){
             address:'Cannaught Place',
             votes:'45k',
             Cuisine:'Chinese',
-            cost:'1200'
+            cost:'1200',
+            image:('lor.jfif')
 //            recommendedDish:{
 //            name:'Best dish:Mexicana O mexica',
 //            url:'lor.jfif'
@@ -72,6 +73,7 @@ grocery_shopping.service('restaurantService',function(){
             votes:'29k',
             Cuisine:'Cafe',
             cost:'1700',
+            image:('farzicafe.jfif'),
             recommendedDish:{
             name:'cycle Sandwich',
                 image:'tfc.jfif'
@@ -84,6 +86,7 @@ grocery_shopping.service('restaurantService',function(){
             votes:'80k',
             Cuisine:'Italian',
             cost:'1200',
+            image:('otb.jfif') ,
             recommendedDish:{
             name:'chefs special pizza',
             image:'outofthebox.jpg'
@@ -96,6 +99,7 @@ grocery_shopping.service('restaurantService',function(){
             votes:'20k',
             Cuisine:'Mughlai',
             cost:'500',
+            image:('whc.jfif'),
             recommendedDish:{
                 name:'cup delight',
                 image:'farzi.jfif'

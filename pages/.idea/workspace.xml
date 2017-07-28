@@ -4,8 +4,8 @@
     <list default="true" id="9985d4ea-5263-4520-ab87-d7cdabf2f39c" name="Default" comment="" />
     <ignored path="pages.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501217914292" ignored="false" />
-    <file path="/grocery_app1.js" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501217392083" ignored="false" />
+    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501234543689" ignored="false" />
+    <file path="/grocery_app1.js" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501234211569" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="restaurant.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="87" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.5398089">
+            <state line="52" column="90" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.94585985">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
       <file leaf-file-name="grocery_app1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="34" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.0">
+            <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,8 +89,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/restaurant.html" />
         <option value="$PROJECT_DIR$/../grocery_app1.js" />
+        <option value="$PROJECT_DIR$/restaurant.html" />
       </list>
     </option>
   </component>
@@ -312,13 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="34" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -326,9 +319,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="87" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.5398089">
+        <state line="52" column="90" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.94585985">
           <folding />
         </state>
       </provider>
