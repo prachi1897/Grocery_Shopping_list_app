@@ -113,39 +113,43 @@ grocery_shopping.controller('homeController',function($scope ,restaurantService)
     console.log('home controller');
     $scope.restaurants=restaurantService.restaurants;
 
+
 });
-grocery_shopping.controller('restaurantController',function($scope,$routeParams,restaurantService,$http){
+grocery_shopping.controller('restaurantController',function($scope,$routeParams,restaurantService){
+    console.log("enter");
     $scope.restaurantId = $routeParams.id;
     var restaurants=restaurantService.restaurants;
     $scope.restaurant = restaurants[$routeParams.id];
 
-  $scope.showDetails=false;
-    console.log($routeParams.restaurant);
-        $scope.restaurant=restaurants[$routeParams.restaurantIndex];
-  console.log($scope.restaurant);
-     function getIngerdiants(url){
-var data = '{"inputs":[{"data":{"image":{"url":"' + url + '"}}}]}'
-$http({
-    'method': 'POST',
-    'url': 'https://api.clarifai.com/v2/models/bd367be194cf45149e75f01d59f77ba7/outputs',
-    'headers': {
-        'Authorization': 'Key ed3ad1138e85425b9e7bbadb376bb4f1',
-        'Content-Type': 'application/json'
-    },
-    'data': data
-}).then(function (response) {
-        var ingredients = response.data.outputs[0].data.concepts;
-        console.log(response);
-        var list = '';
-        for (var i =0;i < ingredients.length ;i++) {
-            $scope.ingredients.push(ingredients[i].name);
-        }
-
-    });
-
-}
-
+  //$scope.showDetails=false;
+//    console.log($routeParams.restaurant);
+//        $scope.restaurant=restaurants[$routeParams.restaurantIndex];
+//  console.log($scope.restaurant);
 });
+
+//     function getIngerdiants(url){
+//var data = '{"inputs":[{"data":{"image":{"url":"' + url + '"}}}]}'
+//$http({
+//    'method': 'POST',
+//    'url': 'https://api.clarifai.com/v2/models/bd367be194cf45149e75f01d59f77ba7/outputs',
+//    'headers': {
+//        'Authorization': 'Key ed3ad1138e85425b9e7bbadb376bb4f1',
+//        'Content-Type': 'application/json'
+//    },
+//    'data': data
+//}).then(function (response) {
+//        var ingredients = response.data.outputs[0].data.concepts;
+//        console.log(response);
+//        var list = '';
+//        for (var i =0;i < ingredients.length ;i++) {
+//            $scope.ingredients.push(ingredients[i].name);
+//        }
+//
+//    });
+//
+//}
+//
+//});
 //
 //
 ////})
