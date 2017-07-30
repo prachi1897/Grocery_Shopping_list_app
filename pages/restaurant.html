@@ -7,30 +7,24 @@
     }
         .restaurant{
             border:2px solid black;
-            width:45%;
+            width:40%;
+            border-radius:.5%;
+        }
+        .button1{
+            background-color:#cb202d;
+            padding: 0.4rem 1rem;
+            border-radius: 4%;
+            cursor: pointer;
+            color:white;
+
         }
            </style>
 </head>
-                       <body>
-<div ng-controller="restaurantController">
+<body>
+
+    <div ng-controller="restaurantController">
     <!--<div ng-repeat="restaurant in restaurants"></div>-->
     <h1>Show Restaurant {{restaurantId}} details here</h1>
-
-<!--<div class="rest-extra">-->
-    <!--<div class="type">-->
-        <!--<div>Name:{{restaurant.name}}</div>-->
-        <!--<div><small>Cuisines:{{restaurant.Cuisine}}</small></div>-->
-        <!--<div><small>Cost for Two:₹{{restaurant.cost }} </small></div>-->
-        <!--<div>{{restaurant.image}}</div>-->
-
-        <!--<div ng-if="restaurants.recommendedDish"><small>Recommended: </small></div>-->
-    <!--</div>-->
-        <!--<div class="bestDish" ng-if="restaurant.recommendedDish">-->
-            <!--<span>{{restaurant.recommendedDish.name}} </span>-->
-            <!--<button type="button" ng-click=getIngrediants(resturant.recommendedDish.image)>Get Ingredients</button>-->
-        <!--</div>-->
-    <!--</div>-->
-
     <div class="restaurant">
         <div class="rest-wrapper">
             <div class="image">
@@ -45,8 +39,11 @@
         </div>
         <div class="bestDish" ng-if="restaurant.recommendedDish">
             <span>Weekend Special:<br>{{restaurant.recommendedDish.name}}<hr> </span>
-            <button type="button" ng-click=getIngrediants(resturant.recommendedDish.image)>Get Ingredients</button>
+
+            <button type="button" class="button1" ng-click=' getIngredients(resturant.recommendedDish.image)'>Get Ingredients</button>
+
         </div>
+
             </div>
         </div>
 
@@ -56,8 +53,16 @@
 
 
 
-</div>
 
+
+
+<div ng-if="ingredients">
+    <ol>
+        <li ng-repeat="ingredient in ingredients">
+            {{ingredient}}
+        </li>
+    </ol>
+</div>
 
 
 <!--<li ng-repeat="ingredient in ingredients">-->

@@ -119,7 +119,8 @@ grocery_shopping.controller('homeController',function($scope ,restaurantService)
 
 
 });
-grocery_shopping.controller('restaurantController',function($scope,$routeParams,restaurantService){
+//restaurant controller
+grocery_shopping.controller('restaurantController',function($scope,$routeParams,restaurantService,$http){
     console.log("enter");
     $scope.restaurantId = $routeParams.id;
     var restaurants=restaurantService.restaurants;
@@ -127,38 +128,65 @@ grocery_shopping.controller('restaurantController',function($scope,$routeParams,
 
   //$scope.showDetails=false;
 //    console.log($routeParams.restaurant);
-//        $scope.restaurant=restaurants[$routeParams.restaurantIndex];
+//        $scope.restaurant=restaurant
+// s[$routeParams.restaurantIndex];
 //  console.log($scope.restaurant);
-});
+    $scope.ingredients=[];
 
-//     function getIngerdiants(url){
-//var data = '{"inputs":[{"data":{"image":{"url":"' + url + '"}}}]}'
-//$http({
-//    'method': 'POST',
-//    'url': 'https://api.clarifai.com/v2/models/bd367be194cf45149e75f01d59f77ba7/outputs',
-//    'headers': {
-//        'Authorization': 'Key ed3ad1138e85425b9e7bbadb376bb4f1',
-//        'Content-Type': 'application/json'
-//    },
-//    'data': data
-//}).then(function (response) {
-//        var ingredients = response.data.outputs[0].data.concepts;
-//        console.log(response);
-//        var list = '';
-//        for (var i =0;i < ingredients.length ;i++) {
-//            $scope.ingredients.push(ingredients[i].name);
-//        }
+    $scope.getIngredients = function(url) {
+        var data = '{"inputs":[{"data":{"image":{"url":"' + url + '"}}}]}'
+        $http({
+            'method': 'POST',
+            'url': 'https://api.clarifai.com/v2/models/bd367be194cf45149e75f01d59f77ba7/outputs',
+            'headers': {
+                'Authorization': 'bae01844385940ee87927582e12250e0',
+                'Content-Type': 'application/json'
+            },
+            'data': data
+        }).then(function (response) {
+                var ingredients = response.data.outputs[0].data.concepts;
+                          var list='';
+                for (var i =0;i < ingredients.length;i++) {
+                    $scope.ingredients.push(ingredients[i].name);
+
+                   // list += '<div class="ingredient">' + ingredients[i].name
+                }
+            });
+            array.push(value),
+               //     $('.ingredients').html(list);
+                console.log(list)
+            }, function error (xhr) {
+                console.log(xhr);
+    }});
+
+
+
+
+
+//$scope.getIngredients = function(url) {
 //
-//    });
+//
+//    var data = '{"inputs":[{"data":{"image":{"url":"http://noblepig.com/images/2016/06/Avocado-and-Three-Bean-Salad-is-perfect-for-a-summertime-barbecue-side-dish.JPG"}}}]}'
+//         $.http({
+//             'method': 'POST',
+//             'url': 'https://api.clarifai.com/v2/models/bd367be194cf45149e75f01d59f77ba7/outputs',
+//             'headers': {
+//                 'Authorization': 'bae01844385940ee87927582e12250e0',
+//                 'Content-Type': 'application/json'
+//             },
+//             'data': data
+//         }).then(function (response) {
+//
+//                 var ingredients = response.outputs[0].data.concepts;
+//                 var list = '';
+//                 for (var i =0;i < ingredients.length ;i++) {
+//                     list += 'div class="ingredient">' + ingredients[i].name + ''
+//                 }
+//                 $('.ingredients').html(list);
+//             },
+//             error: function (xhr) {
+//                 console.log(xhr);
+//             }
 //
 //}
-//
-//});
-//
-//
-////})
-//
-//
-//
-//
 //

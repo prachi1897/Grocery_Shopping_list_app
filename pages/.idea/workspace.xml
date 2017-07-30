@@ -4,8 +4,8 @@
     <list default="true" id="9985d4ea-5263-4520-ab87-d7cdabf2f39c" name="Default" comment="" />
     <ignored path="pages.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501235483727" ignored="false" />
-    <file path="/grocery_app1.js" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501234211569" ignored="false" />
+    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501411298976" ignored="false" />
+    <file path="/grocery_app1.js" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501411045825" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="3" selection-start="730" selection-end="730" vertical-scroll-proportion="-19.576923">
+            <state line="36" column="3" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="7.1923075">
+            <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="restaurant.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="18" selection-start="1785" selection-end="1785" vertical-scroll-proportion="0.5398089">
+            <state line="65" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.86464965">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,11 +73,8 @@
       <file leaf-file-name="grocery_app1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1501234410798" expanded="true" signature="2030:2355" placeholder="{&quot;id&quot;: 3...}" />
-                <marker date="1501234410798" expanded="true" signature="2365:2696" placeholder="{&quot;id&quot;: 4...}" />
-              </folding>
+            <state line="135" column="10" selection-start="3448" selection-end="3448" vertical-scroll-proportion="-8.84">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,7 +114,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -128,29 +125,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -158,6 +133,14 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -252,6 +235,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="58" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -290,10 +301,7 @@
     <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="97" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1501234410798" expanded="true" signature="2030:2355" placeholder="{&quot;id&quot;: 3...}" />
-            <marker date="1501234410798" expanded="true" signature="2365:2696" placeholder="{&quot;id&quot;: 4...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -306,14 +314,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="3" selection-start="730" selection-end="730" vertical-scroll-proportion="-19.576923">
+        <state line="36" column="3" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="7.1923075">
+        <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -327,17 +335,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../grocery_app1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="31" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1501234410798" expanded="true" signature="2030:2355" placeholder="{&quot;id&quot;: 3...}" />
-            <marker date="1501234410798" expanded="true" signature="2365:2696" placeholder="{&quot;id&quot;: 4...}" />
-          </folding>
+        <state line="135" column="10" selection-start="3448" selection-end="3448" vertical-scroll-proportion="-8.84">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="1785" selection-end="1785" vertical-scroll-proportion="0.5398089">
+        <state line="65" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.86464965">
           <folding />
         </state>
       </provider>
