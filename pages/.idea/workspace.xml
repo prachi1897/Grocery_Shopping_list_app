@@ -4,7 +4,7 @@
     <list default="true" id="9985d4ea-5263-4520-ab87-d7cdabf2f39c" name="Default" comment="" />
     <ignored path="pages.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501411298976" ignored="false" />
+    <file path="/restaurant.html" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501412548656" ignored="false" />
     <file path="/grocery_app1.js" changelist="9985d4ea-5263-4520-ab87-d7cdabf2f39c" time="1501411045825" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="restaurant.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.86464965">
+            <state line="26" column="28" selection-start="594" selection-end="594" vertical-scroll-proportion="0.40605095">
               <folding />
             </state>
           </provider>
@@ -342,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.86464965">
+        <state line="26" column="28" selection-start="594" selection-end="594" vertical-scroll-proportion="0.40605095">
           <folding />
         </state>
       </provider>
